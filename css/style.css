@@ -1,0 +1,1356 @@
+body, p, div, section, article, h1, h2, h3, h4, h5, h6 {margin:0;padding:0;}
+
+/**
+* Colours
+
+Brown - #554741
+Green - #5A867D
+Dark Green - #082622
+
+*/
+
+
+.banner-image {
+	position: relative;
+	top: 0;
+	width: 1500px;
+	margin: 0 auto;
+	height: 670px;
+	z-index: 1;
+}
+
+
+
+.banner-image div {
+
+	width: 100%;
+
+	height: 100%;
+
+	background-image: url('../images/canberra.png');
+
+	background-repeat: no-repeat;
+
+	background-size: cover;
+
+}
+
+	.home .second {
+
+		width: 700px;
+
+	}
+
+
+
+	.home .third {
+
+		width: 840px;
+
+	}
+
+
+
+		.home .third img {
+
+			height: 400px;
+
+		}
+
+
+
+	.home .fourth {
+
+		width: 840px;
+
+	}
+		.home .second {
+
+		width: 280px;
+
+		padding: 20px;
+
+	}
+
+
+
+	.home .second h1 {
+
+		font-size: 26px;
+
+	}	
+
+
+
+	.home .third {
+
+		width: 320px;
+
+		flex-direction: column;
+
+	}
+
+
+
+		.home .third div, .home .third img {
+
+			width: 100%;
+
+			padding: 0;
+
+		}
+
+
+
+		.home .third img {
+
+			order: 1;
+
+			height: 200px;
+
+		}
+
+
+
+		.home .third div {
+
+			padding-top: 1em;
+
+			padding-bottom: 1em;
+
+			order: 2;
+
+		}
+
+
+
+	.home .fourth {
+
+		width: 320px;
+
+		height: auto;
+
+		text-align: center;
+
+	}
+
+
+
+		.home .fourth #google-maps {
+
+			height: 175px;
+
+		}
+
+
+
+		.home .fourth div:nth-child(2), .home .fourth #google-maps {
+
+			width: 100%;
+
+			padding: 0;
+
+		}
+
+
+
+		.home .fourth div:nth-child(2) {
+
+			width: 80%;
+
+			margin: 0 auto;
+
+			padding: 1.5em 0;
+
+		}
+
+
+
+
+
+	.second {
+
+		width: 70%;
+
+		padding: 10%;
+
+	}
+
+
+.home .second {
+
+	width: 860px;
+
+	padding: 70px;
+
+}
+
+
+
+.home .second h1 {
+
+	margin-bottom: 0.5em;
+
+}
+
+
+
+.home .second h3 {
+
+	margin-bottom: 0.7em;
+
+}
+
+
+
+.home .third {
+
+	width: 1000px;
+
+	padding: 0em;
+
+	display: flex;
+
+}
+
+
+
+.home .third div {
+
+	background-color: white;
+
+	width: 30%;
+
+	padding: 0em 1%;
+
+	display: inline-block;
+
+	text-align: center;
+
+	align-self: center;
+
+}
+
+
+
+.home .third img {
+
+	display: inline-block;
+
+	width: 70%;
+
+	height: 500px;
+
+}
+
+
+
+.home .third .cms-content h4 {
+
+	font-weight: 400;
+
+}
+
+
+
+.home .third .cms-content h4:nth-child(3), .home .third .cms-content h4:first-child {
+
+	margin-top: 0.4em;
+
+}
+
+
+
+.home .fourth {
+
+	position: relative;
+
+	padding: 0;
+
+	width: 1000px;
+
+	height: 300px;
+
+}
+
+
+
+.home .fourth #google-maps {
+
+	position: relative;
+
+	height: 300px;
+
+	width: 70%;
+
+	display: inline-block;
+
+	border: none;
+
+}
+
+
+
+.home .fourth div:nth-child(2) {
+
+	width: 26%;
+
+	display: inline-block;
+
+	vertical-align: top;
+
+	padding: 3em 2%;
+
+	text-align: center;
+
+}
+
+
+
+.home .fourth h4 {
+
+	margin-top: 0.75em;
+
+}
+
+
+
+.home .fourth p {
+
+	margin: 0;
+
+}
+
+.pac-container { z-index: 10000 !important; }
+
+.page {font-family: 'Lato', sans-serif;
+	background-color: #456B63;
+}
+h1 {font-size: 38px;}
+h2 {font-size: 28px;}
+h3 {font-size: 25px;}
+h4 {font-size: 20px;}
+h5 {font-size: 15px;}
+p {margin-top: 0.5em;}
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+.clearfix {overflow: auto;zoom: 1;clear: both;}
+.line-break {
+	display: block;
+}
+
+.button {
+	
+	
+	padding: 1.25em 0em;
+
+	border: 2px solid #5A867D;
+
+	color: #5A867D;
+
+	background-color: white;
+	
+	
+}
+
+.button__content {
+	font-weight: bold;
+	color: black;
+	padding: 10px;
+	display: inline-block;
+	margin-top: 0;
+	width: 65%;
+	height: 100%;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	background-color: white;
+	text-align: center;
+}
+
+.button__arrow {
+	margin-left: 1.4em;
+	display: inline-block;
+}
+
+.background-image {
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	background-image: url('../images/canberra.png');
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	z-index: -10;
+	top: 50px;
+}
+
+/**
+* Navigation 
+**/
+
+.desktop {
+	display: block;
+}
+
+.mobile {
+	display: none;
+}
+
+.header-top {
+	width: 98%;
+	padding: 1.5em 1%;
+	background-color: white;
+}
+
+	.header-top div {
+		width: 768px;
+		margin: 0 auto;
+	}
+
+		.header-top div img:first-child {
+			display: inline-block;
+			float: left;
+			width: 250px;
+		}
+
+		.header-top div img:nth-child(2) {
+			display: inline-block;
+			float: right;
+			vertical-align: bottom;
+			padding-top: 0.4em;
+			cursor: pointer;
+		}
+
+		.header-top div h2 {
+			display: inline-block;
+			float: right;
+			margin-top: 30px;
+		}
+
+.header-bottom {
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+	.header-bottom nav {
+		margin: 0 auto;
+		width: 768px;
+	}
+
+		.header-bottom nav ul {
+			float: right;
+			padding: 0.3em 0 0.3em 0;
+		}
+
+			.header-bottom nav ul li {
+				display: inline-block;
+				margin-right: 20px;
+				color: black;
+			}
+
+			.header-bottom nav ul li:nth-child(6) {
+				margin-right: 0;
+			}
+
+				.header-bottom nav ul li h5 {
+					font-weight: 400;
+				}
+
+		.mobile.header-bottom nav ul {
+			float: none;
+			width: 320px;
+			margin: 0 auto;
+			padding: 1em 0 1em 0;
+			text-align: center;
+		}
+
+			.mobile.header-bottom nav ul li {
+			}
+
+				.mobile.header-bottom nav ul li h5 {
+				}
+
+				.mobile.header-bottom {
+				}
+				
+	.mobile.dropdown ul {
+		background-color: white;
+		list-style-type: none;
+		padding: 0 1em 0em 1em;
+		margin: 0;
+	}
+
+		.mobile.dropdown li {
+			display: inline-block;
+			width: 95%;
+			padding: 1.25em 2.5%;
+			border-bottom: 2px solid #5A867D;
+		}
+
+		.mobile.dropdown li:nth-child(7) {
+			border: none;
+		}
+
+.content--white {
+	margin: 250px auto 0;
+	width: 668px;
+	padding: 50px;
+	background-color: white;
+}
+
+.content--green {
+	color: white;
+	margin: 250px auto 0;
+	width: 668px;
+	padding: 50px;
+	background-color: #072521;
+}
+
+.column--half {
+	vertical-align: top;
+	display: inline-block;
+	width: 40%;
+	padding-right: 7.5%;
+}
+
+	.column--half--right {
+		margin-left: 2.5%;
+	}
+
+	.column--half--left {
+		margin-right: 2.5%;
+	}
+
+.column__image__border {
+	display: inline-block;
+	width: 96%;
+	padding: 2%;
+-webkit-box-shadow: 2px 2px 6px 0px rgba(110,109,113,0.41);
+-moz-box-shadow: 2px 2px 6px 0px rgba(110,109,113,0.41);
+box-shadow: 2px 2px 6px 0px rgba(110,109,113,0.41);
+}
+
+	.column__image__border img {
+		width: 100%;
+		display: block;
+	}
+
+.column--thirds {
+	display: inline-block;
+	vertical-align: top;
+}
+
+	.column--thirds--left {
+		width: 21.5%;
+		margin-right: 3.5%;
+		padding-left: 10%;
+	}
+
+	.column--thirds--right {
+		width: 61.5%;
+		margin-left: 3.5%;
+	}
+
+
+.home .line {
+	margin-top: 0.75em;
+	margin-bottom: 1.5em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.home .line:last-child {
+	border-bottom: none;
+}
+
+.home .line h3 {
+	display: block !important;
+	width: 100%;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+}
+
+.home .line span {
+	width: 60%;
+	font-size: 16px;
+}
+
+.home .line img {
+	margin: 0 5px;
+	height: 12px;
+	vertical-align: bottom;
+}
+
+.home .line p {
+	display: block !important;
+	width: 100%;
+	margin-top: 0.5em;
+	margin-bottom: 0.3em;
+}
+
+.home .line .multiline {
+	vertical-align: top;
+	margin-top: 3px;
+}
+
+.heading {
+	font-size: 30px;
+	color: #5A867D;
+	font-family: ;
+}
+
+.booking__heading {
+	color: white;
+}
+
+.faq__heading {
+	margin-bottom: 0.5em;
+}
+
+.info__heading {
+	font-size: 14px;
+}
+
+.info__heading--underlined {
+	color: #5A867D;
+	padding-bottom: 0.75em;
+	border-bottom: 1px solid white;
+	margin-top: 30px;
+}
+
+.john__info__heading {
+	margin-top: 1em;
+}
+
+.information__info__heading--large {
+	margin-top: 1em;
+	margin-bottom: 0.3em;
+}
+
+.info__heading--large {
+	font-size: 25px;
+	color: #5A867D;
+}
+
+.info__heading--large--bold {
+	font-family: 'Lato', serif;
+	font-weight: 700;
+	line-height: 0.7em;
+	margin-bottom: 1em;
+}
+
+
+.info__heading--large--italic {
+	font-style: italic;
+	font-family: 'Lora', serif;
+	font-weight: 400;
+}
+
+.services-content, .page-id-91 .services-content {
+	width: 60%;
+	display: inline-block;
+}
+
+.services-row, .page-id-91 .services-row {
+	border-bottom: 1px solid #80B7A2;
+	padding: 0.8em 0.5em 0.5em 0.5em;
+	cursor: pointer;
+}
+
+.services-row p, .page-id-91 .services-row p {
+	padding: 1em;
+	clear: both;
+}
+
+.services-row h4, .page-id-91 .services-row h4 {
+	color: #5A867D;
+	float: left;	
+	display: block;
+	font-size: 20px;
+	width: 85%;
+}
+
+.services-row img, .page-id-91 .services-row img {
+	float: right;
+	transition: -webkit-transform 0.5s, -ms-transform 0.5s, transform 0.5s;
+}
+
+#test {
+	z-index: 1000;
+}
+
+.text-column {
+	display: inline-block;
+	width: 40%;
+}
+
+.text-column.follower {
+	margin-left: 10%;
+}
+
+.column__image__border.follower {
+	margin-top: 15px;
+}
+
+#google-maps {
+	margin-top: 2.5em;
+	width: 100%;
+	height: 250px;
+	border: none;
+}
+
+@media (min-width: 1160px) {
+	.desktop-header-bottom nav {
+		width: 1160px;
+		margin: 0 auto;
+	}
+}
+
+/**
+* FOOTER
+**/
+
+footer {
+		margin-top: 4em;
+}
+
+.footer-1 {
+	padding: 4em 0;
+	background-color: #082622;
+}
+
+.footer-1 .content {
+	background-color: transparent;
+	color: white;
+	margin: 0 auto;
+	padding: 0;
+	width: 800px;
+}
+
+.footer-1 .content div {
+	vertical-align: top;
+	display: inline-block;
+	width: 23%;
+	padding-left: 1em;
+}
+
+.footer-1 .content .footer-first img {
+	margin-bottom: 0.8em;
+}
+
+.footer-1 .content div:nth-child(2) {
+	margin-top: 3.15em;
+}
+
+.footer-1 .content div:nth-child(3), footer .content div:nth-child(4) {
+	margin-top: 1em;
+}
+
+.footer-1 .content div p {
+	margin: 0;
+}
+
+.footer-1 .content div h3 {
+	margin-bottom: 0.5em;
+	color: #456B63;
+	font-size: 20px;
+}
+
+.footer-1 .content div h5 {
+	margin-bottom: 0.2em;
+}
+
+.footer-1 .content div .sep {
+	margin-top: 1em;
+}
+
+.footer-1 .last span {
+	display: block;
+	width: 75%;
+	margin: 1em auto;
+}
+
+.footer-1 .last img:first-child {
+	margin-right: 0.5em;
+}
+
+.footer-2 {
+	background-color: #160904;
+	padding: 1.25em;
+}
+
+.footer-2 p {
+	text-align: center;
+	color: #745E56;
+	margin: 0;
+	font-size: 12px;
+}
+
+@media (min-width: 1200px) {
+	.desktop-header-top div {
+		width: 1200px;
+	}
+
+	.content--white, .content--green {
+		width: 980px;
+	}
+
+	.home .column--half {
+		vertical-align: middle;
+	}
+
+	.home .line p {
+		width: 100%;
+	}
+
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+	.banner-image {
+		width: 100%;
+		height: 350px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	.desktop-header-top div {
+		width: 992px;
+	}
+
+	.content--white, .content--green {
+		width: 872px;
+	}
+    .banner-image {
+		width: 100%;
+		height: 300px;
+	}
+	.content-wrapper-ex {
+		margin-top: -250px;
+	}
+	.content--white-ex {width: 700px!important;}
+	 .home .first {left:260px!important;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.page-id-46 footer .content {
+		width: 768px;
+	}
+
+	.footer-1 .content {
+		width: 240px;
+	}
+
+	.footer-1 .content div {
+		width: 100%;
+		text-align:center;
+		padding: 0;
+	}
+	.banner-image {
+		width: 100%;
+		height: 300px;
+	}
+	.content-wrapper-ex {
+		margin-top: -250px;
+	}
+	.content--white-ex {width: 600px!important;}
+    .home .first {left:210px!important;}
+}
+
+@media (max-width: 768px) {
+
+	.desktop {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+	}
+
+	.mobile.header-top div {
+		width: 86%;
+		margin: 0 7%;
+	}
+
+	.mobile.header-top div img:nth-child(1) {
+		width: 150px;
+	}
+
+	.mobile.header-bottom nav {
+		width: 100%;
+	}
+
+	footer {
+		margin-top: 0;
+	}
+
+	.footer-1 .content {
+		width: 240px;
+	}
+
+	.footer-1 .content div {
+		width: 100%;
+		text-align:center;
+		padding: 0;
+	}
+
+	.footer-1 .content div:nth-child(2) {
+		margin-top: 1em;
+	}
+
+	.content--white, .content--green {
+		width: 240px;
+		padding: 30px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.column--half {
+		width: 100%;
+		margin: 0;
+	}
+
+	.text-column.follower {
+		margin-left: 20%;
+	}
+
+	.home .column--half--right {
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+	.column--thirds {
+		width: 100%;
+		margin: 0;
+	}
+
+	.column--thirds--left {
+		padding: 0;
+	}
+
+	.column--thirds--right {
+		margin-top: 20px;
+	}
+    .layer-1-background {display: none;}
+	.banner-image {
+		width: 100%;
+		height: 250px;
+	}
+	
+	.content-wrapper-ex {
+		margin-top: -40px!important;
+	}
+	.content--white-ex {width: 280px!important;padding: 20px!important;}
+	.home .first {left:0px!important;margin: 0 auto 1em!important;background-color: rgba(217,214,209,1);}
+}
+
+.layer-1-background {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 590px;
+    background-image: url('../images/dark-wood.png');
+    background-color: #554741;
+    z-index: 0;
+}
+
+.content-wrapper-ex {
+    position: relative;
+    margin-top: -580px;
+    z-index: 10;
+}
+
+.content--white-ex {
+    position: relative;
+    margin-top: 0;
+    width: 860px;
+    padding: 70px;
+    background-color: white;
+    z-index: 10;
+}
+/* Add this CSS to your stylesheet - Place this block at the end of your stylesheet*/
+
+/* Submenu Styles */
+.menu-item-has-children {
+    position: relative; /* Required for positioning the submenu */
+}
+
+.sub-menu {
+    display: none; /* Hide the submenu by default */
+    position: absolute; /* Position it absolutely */
+    top: 100%; /* Place it just below the parent menu item */
+    left: 0;
+    background-color: #fff; /* Adjust as needed - Original #fff */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 250px; /* Adjust width as needed */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    z-index: 10; /* Ensure it's above other elements */
+    border: 1px solid #ddd; /* Add a subtle border */
+}
+
+.sub-menu li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee; /* Optional separator */
+}
+
+.sub-menu li:last-child {
+    border-bottom: none;
+}
+
+.sub-menu a {
+    display: block;
+    text-decoration: none;
+    color: #333; /* Adjust color */
+}
+
+.menu-item-has-children:hover .sub-menu {
+    display: block; /* Show the submenu on hover */
+}
+
+/* Style adjustments for the main menu links (optional) */
+header.desktop.header-bottom nav ul a li h5 {
+    padding-right: 10px; /* Example: Add spacing to other menu items */
+}
+
+/* Mobile Menu Styles (Adapt existing mobile styles) */
+
+/* This assumes you are going to add the class .mobile-submenu-open
+   to the parent <li> when it is tapped */
+.dropdown.mobile .sub-menu {
+    display: none; /* Hide by default on mobile */
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+}
+
+.dropdown.mobile .menu-item-has-children.mobile-submenu-open .sub-menu {
+    display: block; /* Show when the class is applied */
+}
+
+.dropdown.mobile .menu-item-has-children {
+    cursor: pointer; /* Indicate it's tappable */
+}
+/* Add the following CSS to your style.css */
+
+/* Custom CSS - Replaces previous version */
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.video-item {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.video-title {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Two column layout for desktop */
+.column-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.column {
+    width: 48%;
+}
+
+.column-one {
+    width: 48%;
+}
+
+.column-two {
+    width: 48%;
+}
+
+.column-one .line {
+    margin-bottom: 1em;
+}
+
+.column-two .line {
+    margin-bottom: 1em;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .column-container {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .column-one {
+        order: 1;
+        width: 100%;
+    }
+
+    .column-two {
+        order: 2;
+        width: 100%;
+    }
+
+    .video-container {
+        align-items: stretch;
+    }
+
+    .video-item {
+        width: 100%;
+    }
+}
+
+/* Optional: Style the phone link to stand out */
+.phone-link {
+    color: #FFC300;
+    font-weight: bold;
+}
+.blue-link {
+    color: blue;  /* Or your preferred shade of blue */
+    text-decoration: underline;
+}
+
+/* Video Container Styles */
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.video-item {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.video-item iframe {
+    width: 100%;
+    height: auto;
+}
+
+.video-title {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.pre-vasectomy-container {
+    display: flex; /* Use flexbox for side-by-side layout */
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px; /* Add some spacing between the text and image */
+}
+
+.vasectomy-instructions {
+    flex: 1; /* Let the text take up available space */
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.vasectomy-image {
+    flex: 0 0 300px; /* Image will be 300px wide, don't shrink or grow */
+}
+
+.vasectomy-image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc; /* Optional: Add a border to the image */
+    border-radius: 5px; /* Optional: Add rounded corners to the image */
+}
+.pathology-info-container {
+    width: 100%; /* Take up the full width of the parent */
+    max-width: 1200px; /* Optional: Limit the maximum width */
+    margin: 0 auto; /* Optional: Center the container horizontally */
+    padding: 20px; /* Optional: Add some padding around the content */
+}
+
+.pathology-tables {
+    display: flex; /* Arrange tables side by side */
+    flex-wrap: wrap; /* Allow tables to wrap to the next line on smaller screens */
+    justify-content: space-between; /* Space tables evenly */
+    gap: 20px; /* Add spacing between the tables */
+}
+
+.pathology-table {
+    width: calc(50% - 10px); /* Each table takes up roughly half the width, minus the gap */
+    border-collapse: collapse; /* Remove spacing between table cells */
+    margin-bottom: 20px; /* Add spacing below each table */
+}
+
+.pathology-table caption {
+    text-align: left; /* Align the caption to the left */
+    font-weight: bold; /* Make the caption text bold */
+    margin-bottom: 5px; /* Add spacing below the caption */
+}
+
+.pathology-table th,
+.pathology-table td {
+    border: 1px solid #ddd; /* Add borders to table cells */
+    padding: 8px; /* Add padding inside table cells */
+    text-align: left; /* Align text to the left */
+}
+
+.pathology-table th {
+    background-color: #f2f2f2; /* Add a background color to the header row */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .pathology-tables {
+        flex-direction: column; /* Stack tables vertically on smaller screens */
+    }
+
+    .pathology-table {
+        width: 100%; /* Make tables full-width on smaller screens */
+    }
+}
+.header-top .button-container { /* Target the buttons in the desktop header */
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Space the buttons evenly */
+    align-items: center; /* Vertically align the buttons */
+    margin-top: 10px;   /* Adjust the margin to fit the placement */
+}
+
+.header-top .button-container .book-now { /* style each button */
+    margin: 0 10px; /* Add some horizontal spacing between the buttons */
+}
+.header-top .button-container .book-now a {
+    display: block;
+}
+
+/* If the buttons are too close to the logo, add some margin-top to the button-container */
+.dropdown.mobile .sub-menu {
+    display: none;
+    padding-left: 1em;
+}
+.dropdown.mobile .menu-item-has-children.open .sub-menu {
+    display: block;
+}
+.dropdown.mobile .sub-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  padding-left: 1em;
+}
+
+.dropdown.mobile .menu-item-has-children.open .sub-menu {
+  max-height: 500px; /* enough height to fit all submenu items */
+}
+.toggle-label::after {
+  content: "▼";
+  float: right;
+  transition: transform 0.3s ease;
+}
+
+.menu-item-has-children.open .toggle-label::after {
+  transform: rotate(180deg);
+}
+.dropdown.mobile .sub-menu a {
+  color: #2900ff; /* Replace with your exact blue if needed */
+  text-decoration: none;
+}
+
+.dropdown.mobile .sub-menu a:hover {
+  text-decoration: underline;
+}
+.dropdown.mobile .menu-item-has-children > span {
+  color: #2900ff; /* Adjust to match your site's exact blue */
+  font-weight: bold;
+  cursor: pointer;
+}
+.dropdown.mobile ul > a li,
+.dropdown.mobile .menu-item-has-children > span {
+  color: #007bff;  /* Replace with your exact blue if needed */
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+.dropdown.mobile ul > a:hover li,
+.dropdown.mobile .sub-menu a:hover {
+  text-decoration: underline;
+}
+/* Force header to display on desktop only */
+@media (min-width: 769px) {
+    body.home .desktop.header-top,
+    body.home .desktop.header-bottom {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        position: relative !important;
+        z-index: 100 !important;
+    }
+}
+/* Fix for book-now buttons */
+.book-now {
+    display: block;
+    margin: 0 auto 20px;
+    width: 320px;
+    background-color: rgba(217,214,209,0.9);
+    border-radius: 5px;
+    padding: 0;
+    text-decoration: none;
+    position: relative;
+    z-index: 15;
+    overflow: hidden;
+}
+
+.book-now .content.first {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.book-now h6 {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #000 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline-block !important;
+    background-image: none !important;
+    height: auto !important;
+    width: auto !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+.book-now img {
+    display: inline-block !important;
+    vertical-align: middle !important;
+    margin-left: 10px !important;
+    width: 30px !important;
+    height: 30px !important;
+    padding: 0 !important;
+}
+/* Position book-now buttons correctly */
+.content-wrapper-ex > .book-now {
+    position: relative !important;
+    left: 0 !important;
+    right: auto !important;
+    float: none !important;
+    margin: 0 auto 20px !important;
+    clear: both !important;
+}
+
+.book-now .content.first {
+    position: relative !important;
+    left: 0 !important;
+    right: auto !important;
+}
