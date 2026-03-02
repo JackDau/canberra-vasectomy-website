@@ -27,7 +27,7 @@ Dark Green - #082622
 
 	height: 100%;
 
-	background-image: url('../images/canberra.png');
+	background-image: url('../images/canberra.png.webp');
 
 	background-repeat: no-repeat;
 
@@ -378,7 +378,7 @@ a {
 	position: absolute;
 	width: 100%;
 	height: 500px;
-	background-image: url('../images/canberra.png');
+	background-image: url('../images/canberra.png.webp');
 	background-repeat: no-repeat;
 	background-position: 50% 0%;
 	z-index: -10;
@@ -961,7 +961,7 @@ footer {
     top: 0;
     width: 100%;
     height: 590px;
-    background-image: url('../images/dark-wood.png');
+    background-image: url('../images/dark-wood.png.webp');
     background-color: #554741;
     z-index: 0;
 }
