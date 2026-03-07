@@ -1224,11 +1224,20 @@ header.desktop.header-bottom nav ul a li h5 {
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
     .pathology-tables {
-        flex-direction: column; /* Stack tables vertically on smaller screens */
+        flex-direction: column;
     }
 
     .pathology-table {
-        width: 100%; /* Make tables full-width on smaller screens */
+        width: 100%;
+    }
+
+    .pre-vasectomy-container {
+        flex-direction: column;
+    }
+
+    .vasectomy-image {
+        flex: none;
+        width: 100%;
     }
 }
 .header-top .button-container { /* Target the buttons in the desktop header */
