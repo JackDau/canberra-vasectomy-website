@@ -435,7 +435,7 @@ a {
 
 	.header-bottom nav {
 		margin: 0 auto;
-		width: 768px;
+		width: 880px;
 	}
 
 		.header-bottom nav ul {
@@ -449,7 +449,7 @@ a {
 				color: black;
 			}
 
-			.header-bottom nav ul li:nth-child(6) {
+			.header-bottom nav ul li:nth-child(7) {
 				margin-right: 0;
 			}
 
