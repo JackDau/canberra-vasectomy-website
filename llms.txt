@@ -1,0 +1,72 @@
+# Canberra Vasectomy
+
+> Dr John Deery's vasectomy practice in Canberra, Australia. Specialising in no-scalpel vasectomy with over 7,000 procedures performed.
+
+## Website Information
+
+- URL: https://canberravasectomy.com.au
+- Practice: Canberra Vasectomy — Dr John Deery
+- Phone: (02) 6103 0434
+- Booking System: HotDoc (online appointment booking)
+
+## Locations
+
+### YourGP@Crace
+- Address: 1/5 Baratta Street, Crace ACT 2911
+- Schedule: Thursday 1:30pm–2:30pm (consultations and procedures), Friday (procedures)
+
+### YourGP@Lyneham
+- Address: 62 Brigalow Street, Lyneham ACT 2602
+- Schedule: Wednesday 3pm–5pm
+
+### YourGP@Denman
+- Address: Level 1, 1B Felstead Vista, Denman Prospect ACT 2611
+- Schedule: Monday 3pm–5pm
+
+## Pages
+
+### Home
+- Path: /
+- Description: Landing page with practice overview, embedded educational videos, doctor credentials, clinic locations, fees summary, and booking call-to-action.
+
+### Bookings
+- Path: /bookings
+- Description: Online booking links for each location via HotDoc. Phone booking option. Embedded Google Maps for all three clinic locations with addresses and session times.
+
+### FAQ
+- Path: /faq
+- Description: 34 frequently asked questions organised in 6 sections — The Basics, The Procedure, Recovery, Risks & Effects, Other Considerations, and Advanced Considerations. Covers effectiveness, pain, recovery time, risks, sperm banking, AI scribes, and reversals.
+
+### Pre-Operation Instructions
+- Path: /pre-operation-instructions
+- Description: 7-point preparation checklist for patients before vasectomy. Includes shaving instructions, medication guidance (avoid aspirin), hygiene, supportive underwear, and pain relief options.
+
+### Post-Operation Instructions
+- Path: /post-operation-instructions
+- Description: Comprehensive aftercare guide covering what to expect immediately after, pain management, wound care, activity restrictions, sexual activity timeline, follow-up semen analysis at 3 months, potential complications, and when to seek emergency care.
+
+### About John
+- Path: /john
+- Description: Dr John Deery's profile — graduated UNSW 2000, married to Dr Mel Deery, 3 children, 750+ vasectomies per year, 20+ years experience, former NRL player (Roosters and Dragons). Work schedule across all three clinics.
+
+### New Patient
+- Path: /new-patient
+- Description: 3-step preparation guide for new patients — complete new patient form (HotDoc), sign consent form, and watch consent video (embedded Vimeo).
+
+### Regional NSW
+- Path: /regional-nsw
+- Description: Information for patients from regional NSW (Parkes, Wagga, Bega and beyond). Telehealth consultation options and single-visit procedure availability. 50–100 procedures per year from regional NSW patients.
+
+### Privacy Policy
+- Path: /privacy-policy
+- Description: YourGP privacy policy covering collection, use, storage, and protection of personal and health information. Reviewed February 2026. PDF version available for download.
+
+## Key Facts
+
+- Procedure Type: No-scalpel vasectomy under local anaesthetic
+- Experience: Over 7,000 procedures performed, 90% of ACT vasectomies
+- Rate: 750+ vasectomies per year
+- Aftercare: 3 months included aftercare with semen analysis
+- Sedation: Available on request
+- Recovery: Patients can drive themselves home
+- Telehealth: Available for regional NSW consultations
