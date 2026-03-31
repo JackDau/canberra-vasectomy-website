@@ -11,12 +11,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Track HotDoc booking link clicks via dataLayer for GTM
   document.querySelectorAll('a[href*="hotdoc.com.au"]').forEach(function(el) {
-    el.addEventListener('click', function() {
+    el.addEventListener('click', function(e) {
+      e.preventDefault();
+      var url = el.href;
       window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
         'event': 'hotdoc_click',
-        'click_url': el.href
+        'click_url': url
       });
+      setTimeout(function() {
+        window.location.href = url;
+      }, 300);
     });
   });
 
