@@ -1138,13 +1138,13 @@ header.desktop.header-bottom nav ul a li h5 {
 
 .faq-answer a,
 .faq-fullwidth-container > p a {
-    color: #0000ff;
-    text-decoration: underline;
+    color: #0000ff !important;
+    text-decoration: underline !important;
 }
 
 .faq-answer a:hover,
 .faq-fullwidth-container > p a:hover {
-    color: #082622;
+    color: #082622 !important;
 }
 
 /* Video Container Styles */
