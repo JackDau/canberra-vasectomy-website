@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for dir:*)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/jackd/OneDrive - YourGP/Claude/initiatives/websites/canberra-vasectomy-website/$dir/**)",
+      "Bash(find .git -name *DESKTOP*)",
+      "Skill(commit-commands:commit)",
+      "Skill(commit-commands:commit:*)"
+    ]
+  }
+}
