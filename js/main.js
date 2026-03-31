@@ -9,6 +9,17 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+  // Track HotDoc booking link clicks via dataLayer for GTM
+  document.querySelectorAll('a[href*="hotdoc.com.au"]').forEach(function(el) {
+    el.addEventListener('click', function() {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        'event': 'hotdoc_click',
+        'click_url': el.href
+      });
+    });
+  });
+
   // Mobile hamburger menu toggle
   var dropdown = document.querySelector('.mobile.dropdown');
   var mobileHeaderBottom = document.querySelector('.mobile.header-bottom');
