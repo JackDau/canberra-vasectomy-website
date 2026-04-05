@@ -17,7 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
       window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
         'event': 'hotdoc_click',
-        'click_url': url
+        'click_url': url,
+        'conversion_value': 855,
+        'conversion_currency': 'AUD'
       });
       setTimeout(function() {
         window.location.href = url;
