@@ -7,7 +7,7 @@ Canberra Vasectomy is a specialist vasectomy clinic operated by Dr John Deery, C
 ## Key Information
 
 - **Phone**: (02) 6103 0434 (10am to 5pm, Monday to Friday)
-- **Booking**: Online via [HotDoc](https://www.canberravasectomy.com.au/bookings) or by phone
+- **Booking**: Online via [HotDoc](https://canberravasectomy.com.au/bookings) or by phone
 - **Billing**: Private billing. Medicare rebates processed on the day. Not bulk billed.
 - **New patients**: Welcome. No GP referral required.
 - **Accepting new patients**: Yes
@@ -63,17 +63,17 @@ Telehealth initial consultations are available to all patients. Dr Deery perform
 
 ## Pages
 
-- [Home](https://www.canberravasectomy.com.au/): Overview, procedure details, fees, locations
-- [FAQ](https://www.canberravasectomy.com.au/faq/): 34 frequently asked questions about vasectomy
-- [About John](https://www.canberravasectomy.com.au/john/): Dr Deery's background and qualifications
-- [Bookings](https://www.canberravasectomy.com.au/bookings/): Online booking links, location details, maps
-- [Pre-Operation Instructions](https://www.canberravasectomy.com.au/pre-operation-instructions/): Preparation guide
-- [Post-Operation Instructions](https://www.canberravasectomy.com.au/post-operation-instructions/): Recovery and aftercare
-- [Regional NSW](https://www.canberravasectomy.com.au/regional-nsw/): Information for regional NSW patients
-- [Privacy Policy](https://www.canberravasectomy.com.au/privacy-policy/): Full privacy policy
+- [Home](https://canberravasectomy.com.au/): Overview, procedure details, fees, locations
+- [FAQ](https://canberravasectomy.com.au/faq/): 34 frequently asked questions about vasectomy
+- [About John](https://canberravasectomy.com.au/john/): Dr Deery's background and qualifications
+- [Bookings](https://canberravasectomy.com.au/bookings/): Online booking links, location details, maps
+- [Pre-Operation Instructions](https://canberravasectomy.com.au/pre-operation-instructions/): Preparation guide
+- [Post-Operation Instructions](https://canberravasectomy.com.au/post-operation-instructions/): Recovery and aftercare
+- [Regional NSW](https://canberravasectomy.com.au/regional-nsw/): Information for regional NSW patients
+- [Privacy Policy](https://canberravasectomy.com.au/privacy-policy/): Full privacy policy
 
 ## Sister Practices
 
-- [YourGP@Crace](https://www.yourgpcrace.com.au) — 1/5 Baratta Street, Crace ACT 2911
-- [YourGP@Lyneham](https://www.yourgplyneham.com.au) — 62 Brigalow St, Lyneham ACT 2602
-- [YourGP@Denman](https://www.yourgpdenman.com.au) — 1B Felstead Vista, Denman Prospect ACT 2611
+- [YourGP@Crace](https://yourgpcrace.com.au) — 1/5 Baratta Street, Crace ACT 2911
+- [YourGP@Lyneham](https://yourgplyneham.com.au) — 62 Brigalow St, Lyneham ACT 2602
+- [YourGP@Denman](https://yourgpdenman.com.au) — 1B Felstead Vista, Denman Prospect ACT 2611
