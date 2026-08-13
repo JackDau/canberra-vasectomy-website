@@ -61,6 +61,10 @@ Telehealth initial consultations are available to all patients. Dr Deery perform
 
 **Procedure day:** Arrive 5 minutes before booked time at YourGP@Crace (1/5 Baratta Street, Crace). Total time on-site is approximately 20 minutes. Without sedation, patients can drive themselves home; with sedation, no driving for 24 hours and a driver/companion is required.
 
+## Sample Drop-Off Locations
+
+The post-vasectomy semen analysis sample can be dropped at any 4Cyte Pathology collection centre (see 4cyte.com.au/locations), or at a listed site. Around Canberra there are 4Cyte collection points in Belconnen, Calwell, Chisholm, Coombs, Crace, Denman Prospect, Franklin, Gowrie, Gungahlin, Kambah, Lyneham, Macquarie, Manuka, Phillip, Bruce and Weston Creek, plus Googong, Goulburn, Murrumbateman and Queanbeyan in nearby NSW; Capital Pathology (Deakin) also accepts samples. Further afield (call first where noted): Wagga Wagga (any 4Cyte centre); Young and Griffith (Laverty Pathology); Parkes/Forbes (Douglass Hanly Moir); Goulburn, Bega and Jindabyne (Capital Pathology); and Batemans Bay (Laverty).
+
 ## Pages
 
 - [Home](https://canberravasectomy.com.au/): Overview, procedure details, fees, locations
@@ -69,6 +73,7 @@ Telehealth initial consultations are available to all patients. Dr Deery perform
 - [Bookings](https://canberravasectomy.com.au/bookings/): Online booking links, location details, maps
 - [Pre-Operation Instructions](https://canberravasectomy.com.au/pre-operation-instructions/): Preparation guide
 - [Post-Operation Instructions](https://canberravasectomy.com.au/post-operation-instructions/): Recovery and aftercare
+- [Sample Drop-Off Locations](https://canberravasectomy.com.au/sample-drop-off/): Where to drop off your post-vasectomy semen sample
 - [Regional NSW](https://canberravasectomy.com.au/regional-nsw/): Information for regional NSW patients
 - [Privacy Policy](https://canberravasectomy.com.au/privacy-policy/): Full privacy policy
 
