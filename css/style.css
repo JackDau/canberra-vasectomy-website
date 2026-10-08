@@ -1023,7 +1023,17 @@ footer {
 
 /* Style adjustments for the main menu links (optional) */
 header.desktop.header-bottom nav ul a li h5 {
-    padding-right: 10px; /* Example: Add spacing to other menu items */
+    padding-right: 4px; /* Example: Add spacing to other menu items */
+}
+
+/* Tighter spacing so all desktop menu items fit on one line */
+header.desktop.header-bottom nav {
+    width: 960px;
+    max-width: 100%;
+}
+
+header.desktop.header-bottom nav ul li {
+    margin-right: 12px;
 }
 
 /* Mobile Menu Styles (Adapt existing mobile styles) */
