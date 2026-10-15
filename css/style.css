@@ -1396,31 +1396,3 @@ header.desktop.header-bottom nav ul li {
     left: 0 !important;
     right: auto !important;
 }
-/* Temporary notice: online booking unavailable */
-.site-notice {
-	position: relative;
-	z-index: 50;
-	background-color: #fff3cd;
-	color: #4a3b00;
-	border-bottom: 3px solid #e0b400;
-	padding: 14px 16px;
-	text-align: center;
-	font-family: 'Lato', sans-serif;
-	font-size: 17px;
-	line-height: 1.4;
-}
-.site-notice strong {
-	font-weight: 700;
-}
-.site-notice a {
-	color: #4a3b00;
-	font-weight: 700;
-	text-decoration: underline;
-	white-space: nowrap;
-}
-.site-notice--home {
-	max-width: 668px;
-	margin: 0 auto 20px;
-	border: 3px solid #e0b400;
-	border-radius: 5px;
-}
