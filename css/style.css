@@ -1396,3 +1396,19 @@ header.desktop.header-bottom nav ul li {
     left: 0 !important;
     right: auto !important;
 }
+/* Phones and small tablets: let the white/green text panels use the screen width
+   instead of a fixed 240px column */
+@media (max-width: 768px) {
+	.content--white, .content--green {
+		width: auto;
+		max-width: 680px;
+		margin-left: 12px;
+		margin-right: 12px;
+		padding: 24px 20px;
+		box-sizing: border-box;
+	}
+	.content--white-ex {width: auto!important;max-width: 680px;margin-left: 12px!important;margin-right: 12px!important;box-sizing: border-box;}
+}
+@media (min-width: 705px) and (max-width: 768px) {
+	.content--white, .content--green, .content--white-ex {margin-left: auto!important;margin-right: auto!important;}
+}

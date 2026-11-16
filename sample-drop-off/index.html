@@ -15,7 +15,7 @@
 <meta name="twitter:title" content="Sample Drop-Off Locations - Canberra Vasectomy">
 <meta name="twitter:description" content="Where to drop off your post-vasectomy semen sample. Collection centres across Canberra and regional NSW.">
 <link rel="icon" href="../favicon.ico">
-<link rel="stylesheet" href="../css/style.css?v=20261015" type="text/css" media="screen" />
+<link rel="stylesheet" href="../css/style.css?v=20261116" type="text/css" media="screen" />
 <link rel='stylesheet' id='googlefonts-css' href='https://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%7CLora%3A400%2C700&#038;ver=53585c2b17d026d5ca75cd7c17bdbbac' type='text/css' media='all' />
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -31,6 +31,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 .pathology-table { width: 100%; }
 .pathology-table caption { font-size: 20px; color: #5A867D; margin-top: 15px; }
 .drop-note { margin-top: 25px; color: #888; font-size: 14px; }
+/* Phones: show each location as a stacked card so nothing runs off the screen */
+@media (max-width: 600px) {
+  .pathology-table, .pathology-table tbody, .pathology-table tr, .pathology-table td { display: block; width: 100%; box-sizing: border-box; }
+  .pathology-table caption { display: block; }
+  .pathology-table thead { display: none; }
+  .pathology-table tr { border: 1px solid #ddd; border-radius: 4px; padding: 10px 12px; margin-bottom: 10px; }
+  .pathology-table td { border: none; padding: 2px 0; overflow-wrap: anywhere; }
+  .pathology-table td:first-child { font-weight: 700; color: #554741; }
+  .pathology-table td:empty { display: none; }
+  .pathology-table td:nth-child(3) { color: #5A867D; }
+}
 .collector-note { border: 1px solid #5A867D; border-left: 5px solid #5A867D; background: #f6faf9; padding: 20px 25px; margin: 25px 0 10px; border-radius: 4px; }
 .collector-note h2 { font-family: 'Lato', sans-serif; font-weight: 700; font-size: 20px; color: #554741; margin: 0 0 10px; }
 .collector-note .letter { border-top: 1px solid #dbe6e3; margin-top: 12px; padding-top: 15px; color: #333; }
